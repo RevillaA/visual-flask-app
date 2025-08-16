@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block content %}
+  <h2>Dashboard</h2>
+  <ul>
+    {% for p in products %}
+      <li>
+        {{ p.name }} - ${{ p.price }}
+        <a href="{{ url_for('detail', pid=p.id) }}">View</a>
+      </li>
+    {% endfor %}
+  </ul>
+{% endblock %}

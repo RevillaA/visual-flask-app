@@ -1,0 +1,25 @@
+{
+  "name": "visual-flask-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@babel/core": "^7.28.3",
+    "@babel/preset-env": "^7.28.3",
+    "@percy/cli": "^1.31.1",
+    "@percy/playwright": "^1.0.9",
+    "@playwright/test": "^1.54.2",
+    "babel-jest": "^30.0.5",
+    "jest": "^30.0.5",
+    "loki": "^0.35.1",
+    "pixelmatch": "^7.1.0",
+    "pngjs": "^7.0.0",
+    "puppeteer": "^24.16.2"
+  }
+}
