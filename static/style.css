@@ -15,7 +15,7 @@ body {
 
 /* Header */
 header {
-  background: linear-gradient(135deg, #0066cc, #004c99);
+  background: linear-gradient(135deg, #0066cc, black);
   color: white;
   padding: 15px 30px;
   display: flex;
@@ -28,7 +28,7 @@ header h1 {
 }
 
 nav a {
-  color: white;
+  color: green;
   text-decoration: none;
   margin-left: 15px;
   font-weight: 500;
